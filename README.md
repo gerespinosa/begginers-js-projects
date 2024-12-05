@@ -1,8 +1,11 @@
-# React + Vite
+# Proyectos para principiantes en JS usando React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hola! He creado este repo para compartir con vosotros algunos de los clásicos proyectos a los que todo desarrollador se ha enfrentado alguna vez. Son proyectos simples, algunos que no llegan a 50 líneas de código y otros que si necesitan un poco más de tiempo para desarrollarlos. 
 
-Currently, two official plugins are available:
+Mi idea no es realizar los proyectos más elaborados posibles, si no versiones simples de los mismos que sirvan para practicar alguna habilidad en concreto. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dentro del repositorio, en la carpeta features, están clasificados cada uno de los proyectos. Se ha mantenido una estructura de proyecto basada en features, la cual considero que es ideal para este proyecto.
+
+Espero que estos pequeños proyectos os ayuden a mejorar con vuestra lógica de programación y manejo de React y JS. 
+
+Un saludo
