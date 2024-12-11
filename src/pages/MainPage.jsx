@@ -27,7 +27,7 @@ const MainPage = () => {
             <a className='w-[125px] h-[125px] bg-black bg-opacity-25 shadow-md flexbox content-center text-center'
              href='/calculadora'>11. Calculadora</a>
             <a className='w-[125px] h-[125px] bg-black bg-opacity-25 shadow-md flexbox content-center text-center'
-             href='/generador-qr'>12. Generador QR</a>
+             href='/qr'>12. Generador QR</a>
             <a className='w-[125px] h-[125px] bg-black bg-opacity-25 shadow-md flexbox content-center text-center'
              href='/tres-en-raya'>13. Tres en raya</a>
         </ul>

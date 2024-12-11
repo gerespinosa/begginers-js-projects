@@ -12,6 +12,7 @@ import PassGeneratorPage from "./features/PassGenerator/pages/PassGeneratorPage"
 import RatingsPage from "./features/Ratings/pages/RatingsPage"
 import SliderPage from "./features/Slider/pages/SliderPage"
 import CalculadoraPage from "./features/Calculadora/pages/CalculadoraPage"
+import QRPage from "./features/QR/pages/QRPage"
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/ratings" element={<RatingsPage/>}/>
           <Route path="/slider" element={<SliderPage />}/>
           <Route path="/calculadora" element={<CalculadoraPage />} />
+          <Route path="/qr" element={<QRPage />} />
         </Routes>
       </BrowserRouter>
   )
