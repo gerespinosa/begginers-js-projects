@@ -23,7 +23,7 @@ function App() {
           <Route path="/" element={<MainPage/>} />
           <Route path="/CAAN" element={<CAANPage/>}/>
           <Route path="/reloj-digital" element={<RelojDigitalPage/>}/>
-          <Route path="/reloj-analogico" element={<RelojAnalogicoPage/>}/>
+          {/* <Route path="/reloj-analogico" element={<RelojAnalogicoPage/>}/> */}
           <Route path="/generador-css" element={<CSSGeneratorPage/>}/>
           <Route path="/cronometro" element={<CronometroPage/>}/>
           <Route path="/notas" element={<NotasPage/>}/>
