@@ -58,7 +58,7 @@ const QR = () => {
                 <input type="text" onChange={handleUrlChange} className='w-[200px]' />
             </div>
         </div>
-    <canvas ref={canvasRef}>{QR}</canvas>
+    <canvas ref={canvasRef} className="bg-gray-700 w-[200px] h-[200px]">{QR}</canvas>
     </div>
   )
 }

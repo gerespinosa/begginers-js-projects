@@ -13,6 +13,7 @@ import RatingsPage from "./features/Ratings/pages/RatingsPage"
 import SliderPage from "./features/Slider/pages/SliderPage"
 import CalculadoraPage from "./features/Calculadora/pages/CalculadoraPage"
 import QRPage from "./features/QR/pages/QRPage"
+import TresEnRayaPage from "./features/TresEnRaya/pages/TresEnRayaPage"
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/slider" element={<SliderPage />}/>
           <Route path="/calculadora" element={<CalculadoraPage />} />
           <Route path="/qr" element={<QRPage />} />
+          <Route path="/tres-en-raya" element={<TresEnRayaPage />} />
         </Routes>
       </BrowserRouter>
   )

@@ -1,24 +1,23 @@
 import React from 'react'
+import Button from '../../../components/Button'
 import { useNavigate } from 'react-router-dom'
+import TresEnRaya from '../components/TresEnRaya'
 
-import QR from '../components/QR'
-import Button from '../../../components/Button.jsx'
+const TresEnRayaPage = () => {
 
-const QRPage = () => {
-
-    const navigate = useNavigate()
+  const navigate = useNavigate()
 
     // Cuando hagamos click en el botón, volveremos al índice
     const handleBack = () => {
-    navigate("/")
+      navigate("/")
     }
 
   return (
     <div className="bg-black p-8 h-[100vh] w-full justify-center items-center flex flex-col gap-4">
-        <QR />
-        <Button text='Volver' onClick={handleBack} />
+        <TresEnRaya />
+        <Button text='Volver' onClick={handleBack}/>
     </div>
   )
 }
 
-export default QRPage
+export default TresEnRayaPage
